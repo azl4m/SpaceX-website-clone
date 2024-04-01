@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+.feature1{
+    
+    background-image: url(images/feature1.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 15px;
+}
+.logo {
+    height: 25px;
+    width: 200px;
+    margin-left: 90px;
+  }
+  .feature1 ul {
+    font-family: "D-DIN-PRO Heavy"; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgba(0, 0,0, 0.1); */
+    color: white;
+  }
+  .feature1 li {
+    float: left;
+  }
+  .feature1 li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 5px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+  }
+  .icons {
+    float: right;
+    display: flex;
+    transform: translateX(120px);
+  
+  }
+  .feature1description {
+    margin-top: 220px;
+    margin-left: 100px;
+    line-height: 85px;
+    letter-spacing: 2px;
+  }
+  .feature1description p {
+    font-family:"D-DIN-PRO" ;
+    font-size: 15px;
+    transform: scaleY(0.9);
+  }
+  .feature1description h1 {
+    font-family: "D-DIN-PRO Heavy" ;
+    font-weight: normal;
+    font-size: 45px;
+    transform: scaleY(1.5);
+    
+  }
+  .feature1description button {
+    background-color: #1c69d400;
+    height: 55px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "D-DIN-PRO Medium" ;
+  }
+  .feature1description button:hover{
+      background-color: #ffffff;
+      color: black;
+  }
+  .underline:hover{
+    text-decoration: underline white;
+
+  }
+  
+  
+  /* ******************************FEATURE2************************************  */
+
+
+.feature2{
+    background-image: url(images/feature2.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 450px;
+}
+.feature2description {
+    margin-left: 100px;
+    line-height: 45px;
+    letter-spacing: 2px;
+  }
+  .feature2description p {
+    font-family:"D-DIN-PRO" ;
+    font-size: 15px;
+    transform: scaleY(0.9);
+  }
+  .feature2description h1 {
+    font-family: "D-DIN-PRO Heavy" ;
+    font-weight: normal;
+    font-size: 45px;
+    transform: scaleY(1.5);
+    
+  }
+  .feature2description button {
+    margin-top: 25px;
+    background-color: #1c69d400;
+    height: 55px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "D-DIN-PRO Medium" ;
+  }
+  .feature2description button:hover{
+      background-color: #ffffff;
+      color: black;
+  }
+/* 
+  ******************************FEATURE3****************************** */
+
+
+  .feature3{
+    background-image: url(images/feature3.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 450px;
+}
+.feature3description {
+    margin-left: 100px;
+    line-height: 45px;
+    letter-spacing: 2px;
+  }
+  .feature3description p {
+    font-family:"D-DIN-PRO" ;
+    font-size: 15px;
+    transform: scaleY(0.9);
+  }
+  .feature3description h1 {
+    font-family: "D-DIN-PRO Heavy" ;
+    font-weight: normal;
+    font-size: 45px;
+    transform: scaleY(1.5);
+    
+  }
+  .feature3description button {
+    margin-top: 25px;
+    background-color: #1c69d400;
+    height: 55px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "D-DIN-PRO Medium" ;
+  }
+  .feature3description button:hover{
+      background-color: #ffffff;
+      color: black;
+  }
+
+  /* *************************FEATURE4************************** */
+
+  .feature4{
+    background-image: url(images/feature4.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 450px;
+}
+.feature4description {
+    margin-left: 100px;
+    line-height: 45px;
+    letter-spacing: 2px;
+  }
+  .feature4description p {
+    font-family:"D-DIN-PRO" ;
+    font-size: 15px;
+    transform: scaleY(0.9);
+  }
+  .feature4description h1 {
+    font-family: "D-DIN-PRO Heavy" ;
+    font-weight: normal;
+    font-size: 45px;
+    transform: scaleY(1.5);
+    
+  }
+  .feature4description button {
+    margin-top: 25px;
+    background-color: #1c69d400;
+    height: 55px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "D-DIN-PRO Medium" ;
+  }
+  .feature4description button:hover{
+      background-color: #ffffff;
+      color: black;
+  }
+
+
+  /* *****************************FEATURE5****************************** */
+
+
+  .feature5{
+    background-image: url(images/feature5.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 450px;
+}
+.feature5description {
+    margin-left: 100px;
+    line-height: 65px;
+    letter-spacing: 2px;
+  }
+  .feature5description p {
+    font-family:"D-DIN-PRO" ;
+    font-size: 15px;
+    transform: scaleY(0.9);
+  }
+  .feature5description h1 {
+    font-family: "D-DIN-PRO Heavy" ;
+    font-weight: normal;
+    font-size: 45px;
+    transform: scaleY(1.5);
+    
+  }
+  .feature5description button {
+    margin-top: 25px;
+    background-color: #1c69d400;
+    height: 55px;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "D-DIN-PRO Medium" ;
+  }
+  .feature5description button:hover{
+      background-color: #ffffff;
+      color: black;
+  }
+
+  /* *******************footer*************** */
+
+  .footerclass{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    padding-left: 50%;
+    padding-top: 30px;
+    font-family: "D-DIN-PRO Medium";
+  }
+  .footerclass li{
+    float: left;
+    margin-right: 80px;
+    list-style-type: none;
+  }
+  .footerclass li a{
+    text-decoration: none;
+    color: white;
+  }
+  .trademark{
+    font-weight: lighter;
+    font-family: "D-DIN-PRO";
+  }
+  .footerclass li a:hover{
+    color: rgb(139, 139, 139);
+  }
